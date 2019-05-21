@@ -7,10 +7,10 @@ import { ServicesComponent} from './services/services.component' ;
 
 // rutas de la aplicacion
 const routes: Routes = [
-  { path: 'home', component:HomeComponent},
-  { path: 'models', component:ModelsComponent},
-  { path: 'services', component:ServicesComponent},
-  { path: '**', component:HomeComponent}
+  { path: 'home', component: HomeComponent},
+  { path: 'models', component: ModelsComponent},
+  { path: 'services', component: ServicesComponent},
+  { path: '**', component: HomeComponent}
 ];
 
 @NgModule({
